@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "orthodox"
   spec.version       = Orthodox::VERSION
   spec.authors       = ["Bodacious", 'CodeMeister']
-  spec.email         = ["team@katanacode.com"]
+  spec.email         = ["gavin@gavinmorrice.com"]
 
-  spec.summary       = %q{Better Rails generators for Katana}
-  spec.description   = %q{Replaces Rails generators with generators specific to Katana's workflow'}
-  spec.homepage      = "https://github.com/KatanaCode/orthodox"
+  spec.summary       = %q{Better Rails generators}
+  spec.description   = %q{Replaces Rails generators with generators specific to my preferred workflow'}
+  spec.homepage      = "https://github.com/Bodacious/orthodox"
   spec.license       = "MIT"
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
@@ -23,7 +23,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib", 'lib/generators']
   spec.add_runtime_dependency 'rails', '>= 3.0.0'
   spec.add_runtime_dependency 'slim-rails'
-  spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", ">= 10.0"
   spec.add_development_dependency "rails", ">= 5.0"
 end
