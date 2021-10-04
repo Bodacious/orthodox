@@ -1,13 +1,13 @@
 # Orthodox
 
-Replacement Rails generators for Katana apps.
+Better Rails generators for modern apps
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'orthodox', github: "katanacode/orthodox"
+gem 'orthodox', github: "bodacious/orthodox"
 ```
 
 And then execute:
@@ -214,12 +214,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/KatanaCode/orthodox.
+Bug reports and pull requests are welcome on GitHub at https://github.com/bodacious/orthodox.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-## About Katana
-
-Katana are [web and mobile app developers in Edinburgh, Scotland](http://katanacode.com/ "Katana Code").
