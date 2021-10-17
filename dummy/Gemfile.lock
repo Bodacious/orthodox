@@ -2,7 +2,6 @@ PATH
   remote: ..
   specs:
     orthodox (0.3.5)
-      rails (>= 3.0.0)
       slim-rails
 
 GEM
@@ -110,7 +109,7 @@ GEM
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     public_suffix (4.0.6)
-    puma (5.5.0)
+    puma (5.5.1)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
@@ -214,7 +213,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   orthodox!
-  puma (~> 5.0)
+  puma (~> 5.5)
   rails (~> 5.2.0)
   sass-rails (~> 5.0)
   selenium-webdriver
